@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awal Art Store</title>
+    <script src="https://kit.fontawesome.com/8607842fd9.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+<body>
+    <header class="bg-dark p-2 abc">
+        <div class=" container d-flex  gap-5 justify-content-between">
+            <div class="mt-2 col-md-4 d-none d-md-block">
+                <a href="#"><i class="fa-brands fa-facebook text-light"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram text-light ps-3"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp text-light ps-3"></i></a> 
+            </div>
+            <div>
+                <select id="select" class="form-select bg-dark text-white-50" aria-label="Default select example">
+                    <option selected>تغيير اللغة</option>
+                    <option value="1">English</option>
+                </select>
+            </div>
+            <div>
+                <select name="currencyCon" id="currencyConID" class="btn  btn-lg g-color-gray-dark-v5 g-color-primary--hover g-font-size-default g-pl-0" style="color:white !important;">
+                    <option value="USD" style="color: white; background:black;">🇺🇸 USD</option>
+                    <option value="BHD" style="color: white; background:black;">🇧🇭 BHD</option>
+                    <option value="AED" style="color: white; background:black;">🇦🇪 AED</option>
+                    <option value="EUR" style="color: white; background:black;">🇪🇺 EUR</option>
+                    <option value="KWD" style="color: white; background:black;">🇰🇼 KWD</option>
+                    <option value="EGP" style="color: white; background:black;">🇪🇬 EGP</option>
+                    <option value="GBP" style="color: white; background:black;">🇬🇧 GBP</option>
+                    <option value="OMR" style="color: white; background:black;">🇴🇲 OMR</option>
+                    <option value="QAR" style="color: white; background:black;">🇶🇦 QAR</option>
+                    <option value="SAR" style="color: white; background:black;">🇸🇦 SAR</option>
+                </select>
+            </div>
+            <div class="d-flex gap-4 mt-2">
+                <a href="#"><p class="text-white-50">Account</p></a>
+                <a href="./login.html"><p class="text-white-50">Login|Signup</p></a>
+            </div>
+            <div class="d-flex gap-1">
+                <a href="./cart.html"><i class="fa-solid fa-bag-shopping text-white-50 mt-2"></i></a>
+                <a href="./cart.html"><p class="font text-white-50">0</p></a>
+            </div>
+        </div>
+    </header>
+    <section class="container d-flex justify-content-between">
+        <div>
+            <a href="#"><img src="./img/awal1.png" alt="" width="150px"></a>
+        </div>
+        <div class="mt-2">
+            <nav class="navbar navbar-expand-sm bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html#card_effects"><i class="fa-solid fa-rectangle-list"></i> CATEGORIES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html"><i class="fa-solid fa-circle-question"></i> ABOUTUS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="products.html"><i class="fa-solid fa-list"></i> PRODUCTS</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="background abc">
+            <div class="move container mt-1">
+            <div class=" mb-3">
+                <h2 class="fond">USD95.15</h2>
+            </div>
+                <a href="./add"><button class="button"><i class="fa-solid fa-cart-shopping  text-light"></i> Add to Cart</button></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container d-flex justify-content-between mt-5">
+            <div class="d-flex gap-1">
+                <div>
+                    <img src="./img/Free Shipping.png" alt="" width="80px">
+                </div>
+                <div>
+                    <p class="mt-2">FREE DELIVERY</p>
+                    <p class="color">in 10 days</p>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div>
+                    <img src="./img/High Quality.png" alt="" width="80px">
+                </div>
+                <div>
+                    <p class="mt-1">HIGH QUALITY</p>
+                    <p class="color">No Worries</p>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div>
+                    <img src="./img/Secure Payment.png" alt="" width="80px">
+                </div>
+                <div>
+                    <p class="mt-1">RECURE PAYMENT</p>
+                    <p class="color">Riskfree Payment</p>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div>
+                    <img src="./img/Worldwide Shipping.png" alt="" width="80px">
+                </div>
+                <div>
+                    <p class="mt-1">WORLDWIDE SHIPPING</p>
+                    <p class="color">Get all over the world</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="card_effects" class="abc mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="card-img">
+                            <a href="./ayat.html"><img class="img-fluid" src="./img/A1.webp" alt="" height="300px" width="300px"></a>
+                        </div>
+                        <div class="card-body">
+                            <a href="./ayat.html"><h3 class="text-dark mt-2">AYAT</h3></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="card-img">
+                            <a href="./adhkar.html"><img class="img-fluid" src="./img/A2.webp" alt="" height="300px" width="300px"></a>
+                        </div>
+                        <div class="card-body">
+                            <a href="./adhkar.html"><h3 class="text-dark mt-2">ADHKAR</h3></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="card-img">
+                            <a href="./name-of-allah.html"><img class="img-fluid" src="./img/A3.webp" alt="" height="300px" width="300px"></a>
+                        </div>
+                        <div class="card-body">
+                            <a href="./name-of-allah.html"><h3 class="text-dark mt-2">NAME OF Allah</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container abc">
+        <div class="mb-5">
+            <h3 class="text-center mt-5">Products</h3>
+        </div>
+        <div class="d-flex gap-3 mt-5">
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./surah-al-akhlas.html"><img src="./img/111.png" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./surah-al-akhlas.html"><h4 class="text-dark">USD 30.40</h4></a>
+                    <a href="./surah-al-akhlas.html"><h7 class="text-dark">surah Al-akhlas</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./alhamdulillh.html"><img src="./img/222.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./alhamdulillh.html"><h4 class="text-dark">USD 134.00</h4></a>
+                    <a href="./alhamdulillh.html"><h7 class="text-dark">Alhamdulillah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./mashallah.html"><img src="./img/333.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./mashallah.html"><h4 class="text-dark">USD 67.00</h4></a>
+                    <a href="./mashallah.html"><h7 class="text-dark">Mashallah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./bismillah.html"><img src="./img/444.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./bismillah.html"><h4 class="text-dark">USD 160.80</h4></a>
+                    <a href="./bismillah.html"><h7 class="text-dark">Bismillah</h7></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex gap-3">
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./surah-al-falaq.html"><img src="./img/0011.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./surah-al-falaq.html"><h4 class="text-dark">USD 80.70</h4></a>
+                    <a href="./surah-al-falaq.html"><h7 class="text-dark">Surah Al-Falaq</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./allah.html"><img src="./img/0022.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./allah.html"><h4 class="text-dark">USD 94.15</h4></a>
+                    <a href="./allah.html"><h7 class="text-dark">Allah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./quranic-ayat.html"><img src="./img/0033.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./quranic-ayat.html"><h4 class="text-dark">USD 80.70</h4></a>
+                    <a href="./quranic-ayat.html"><h7 class="text-dark">Quaranic Ayat</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./ayath.html"><img src="./img/0044.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./ayath.html"><h4 class="text-dark">USD 107.60</h4></a>
+                    <a href="./ayath.html"><h7 class="text-dark">Ayath</h7></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex gap-3">
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./bismillha2.html"><img src="./img/111.png" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./bismillha2.html"><h4 class="text-dark">USD 591.80</h4></a>
+                    <a href="./bismillha2.html"><h7 class="text-dark">Bismillah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./bismillah3.html"><img src="./img/A1.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./bismillah3.html"><h4 class="text-dark">USD 121.05</h4></a>
+                    <a href="./bismillah3.html"><h7 class="text-dark">Bismillah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./allah2.html"><img src="./img/A3.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./allah2.html"><h4 class="text-dark">USD 94.15</h4></a>
+                    <a href="./allah2.html"><h7 class="text-dark">Allah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./allah3.html"><img src="./img/00aa.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./allah3.html"><h4 class="text-dark">USD 134.50</h4></a>
+                    <a href="./allah3.html"><h7 class="text-dark">Allah</h7></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex gap-3">
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./aayah.html"><img src="./img/00aa.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./aayah.html"><h4 class="text-dark">USD 94.15</h4></a>
+                    <a href="./aayah.html"><h7 class="text-dark">Ayah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded abc">
+                <div>
+                    <a href="./allah4.html"><img src="./img/00bb.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./allah4.html"><h4 class="text-dark">USD 94.15</h4></a>
+                    <a href="./allah4.html"><h7 class="text-dark">Allah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded abc">
+                <div>
+                    <a href="./bismillah4.html"><img src="./img/00cc.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./bismillah4.html"><h4 class="text-dark">80.70</h4></a>
+                    <a href="./bismillah4.html"><h7 class="text-dark">Bismillah</h7></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mb-5">
+            <a href="./products.html"><button class="button">VIEW MORE</button></a>
+        </div>
+    </section>
+<br>
+    <section class="mashallah container d-flex justify-content-end mt-5 mb-5 abc">
+        <div class="right mt-5">
+            <div>
+                <div class="mashallah">
+                    <h3 class="fs-1">MASHALLAH</h3>
+                    <i class="fa-solid fa-circle"></i>
+                    <p class="metal text-center">METAL ISLAMIC WALL ART</p>
+                    <span></span><h4 class="text-center mb-3 ">USD 67.25</h4>
+                    <a href="mashallah.html"><button class="button text-center">VIEW PRODUCTS</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="left">
+            <div>
+                <img src="./img/111.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="abc container">
+        <div>
+            <h3 class="text-center mt-5">Latest</h3>
+        </div>
+        <div class="d-flex gap-3">
+            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                <div>
+                    <a href="./quranic-ayat.html"><img src="./img/0011.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./quranic-ayat.html"><h4 class="text-dark">USD 80.70</h4></a>
+                    <a href="./quranic-ayat.html"><h7 class="text-dark">Quaranic ayat</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded abc">
+                <div>
+                    <a href="./ayath.html"><img src="./img/0022.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./ayath.html"><h4 class="text-dark">USD 107.15</h4></a>
+                    <a href="./ayath.html"><h7 class="text-dark">Ayath</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded abc">
+                <div>
+                    <a href="./aayah.html"><img src="./img/0033.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2 abc">
+                    <a href="./aayah.html"><h4 class="text-dark">USD 94.15</h4></a>
+                    <a href="./aayah.html"><h7 class="text-dark">Ayah</h7></a>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-body rounded abc">
+                <div>
+                    <a href="./surah-al-falaq.html"><img src="./img/0044.webp" alt="" width="250px" height="250px"></a>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="./surah-al-falaq.html"><h4 class="text-dark">USD 80.70</h4></a>
+                    <a href="./surah-al-falaq.html"><h7 class="text-dark">Surah Al-Falaq</h7></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="products.html"><button class="button">VIEW MORE</button></a>
+        </div>
+    </section>
+
+    <div class="float">
+        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    </div>
+
+    <section class="bg-dark mt-5">
+        <div class="gapp d-flex justify-content-end container marg">
+            <div class="right marg">
+                <div>
+                    <a href="#"><img src="./img/awal1.png" alt=""></a>
+                    <p class="gray">Awal Mohammed Trading is a Bahraini company, working on designing decorative products with different designs located in Building 2041, Road 436, Block 704, Salmabad Bahrain</p>
+                </div>
+                <div class="sub text-light mb-5">
+                    <h5>Subscribe</h5>
+                    <p class="gray">Subscribe to our newsletter and stay up to date with the latest products and deals!</p>
+                    <form class="input-group u-shadow-v19 rounded">
+                        <input class="form-control g-brd-none g-color-gray-dark-v5 g-bg-main-light-v2 g-bg-main-light-v2--focus g-placeholder-gray-dark-v3 rounded g-px-20 g-py-8" type="email" placeholder="Enter your email">
+                        <span class="input-group-addon u-shadow-v19 g-brd-none g-bg-main-light-v2 g-pa-5">
+                          <button class="btn u-btn-primary rounded text-uppercase g-py-8 g-px-18" type="submit">
+                            <i class="fa fa-angle-right"></i>
+                          </button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+            <div class="left marg">
+                <div class="text-light">
+                    <h4>Contacts</h4>
+                    <p class="gray"><i class="fa-regular fa-clock"></i> timing</p>
+                    <p class="gray ppll">SAT-THU</p>
+                    <p class="gray ppll">9:00 am - 1:00 pm</p>
+                    <p class="gray ppll">3:00 pm - 6:00 pm</p>
+                </div>
+                <div class="text-light">
+                    <p class="gray"><i class="fa-solid fa-map-location-dot"></i> Awal Mohamed Trading</p>
+                    <p class="gray ppll">Salmabad, Block 704, Road 436, Building 2041</p>
+                </div>
+                <div class="text-light">
+                    <p class="gray"><i class="fa-solid fa-envelope-circle-check"></i> info.awalmohd@gmail.com</p>
+                    <p class="gray"><i class="fa-solid fa-phone"></i> +973 33630843</p>
+                </div>
+                <div class="text-light">
+                    <h4>Follow US On:</h4>
+                </div>
+                <div class="d-flex gap-3 mt-3 ppll">
+                    <a href="#"><i class="fa-brands fa-facebook fs-5 text gray"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram ps-3 fs-5 text gray"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp ps-3 fs-5 text gray"></i></a> 
+                </div>
+                <div class="abc mt-3 ppll">
+                    <a href="#"><p class="terms text-light">Privacy Policy / Terms of Use</p></a>
+                    <a href="#"><p class="terms text-light">Shipping / Exchange Terms and Refund</p></a>
+                </div>
+
+                <div class="text-light">
+                    <h5>Location</h5>
+                    <iframe class="mt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28969.83118976959!2d46.62451635475046!3d24.821844580598064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee491f8ebc295%3A0x580d837710bb350f!2sAlyasmin%2C%20Riyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1669875705705!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class=" d-flex mt-3 justify-content-center gap-3 fs-2">
+            <a href="#"><i class="fa-brands fa-cc-visa gray"></i></a>
+            <a href="#"><i class="fa-brands fa-cc-amex gray"></i></a>
+            <a href="#"><i class="fa-brands fa-cc-mastercard gray"></i></a>
+            <a href="#"><i class="fa-brands fa-apple gray"></i></a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
